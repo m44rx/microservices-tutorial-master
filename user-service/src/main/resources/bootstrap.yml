@@ -1,0 +1,8 @@
+# server.port=8001  ** configuracion inicial - ahora usaremos una de nube
+spring:
+    application:
+        name: user-service
+    cloud:
+        config:
+            enabled: true
+            uri: http://localhost:8081

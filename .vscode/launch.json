@@ -29,6 +29,16 @@
             "mainClass": "com.tutorial.userservice.UserServiceApplication",
             "projectName": "user-service",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServiceApplication<config-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tutorial.configservice.ConfigServiceApplication",
+            "projectName": "config-service",
+            "args": ""
         }
     ]
 }
