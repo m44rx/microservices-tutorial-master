@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CarServiceApplication<car-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tutorial.carservice.CarServiceApplication",
+            "projectName": "car-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BikeServiceApplication<bike-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tutorial.bikeservice.BikeServiceApplication",
+            "projectName": "bike-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserServiceApplication<user-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tutorial.userservice.UserServiceApplication",
+            "projectName": "user-service",
+            "args": ""
+        }
+    ]
+}
