@@ -18,7 +18,7 @@ public interface CarFeignClient {
     @PostMapping("/car")
     Car save(@RequestBody Car car);
 
-    @GetMapping("/byuser/{userId}")
+    @GetMapping("/car/byuser/{userId}")
     List<Car> getCars(@PathVariable("userId") int userId);
 
 }

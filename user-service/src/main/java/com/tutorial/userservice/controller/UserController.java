@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/user")
@@ -79,5 +80,10 @@ public class UserController {
         return ResponseEntity.ok(bikeNew);
     }
 
+    @GetMapping("/getAll/{userId}")
+    public ResponseEntity<Map<String, Object>> getAllVehicles(@PathVariable("userId") int userId){
+        Map<String, Object> result = userService.getUserAndVehicles(userId);
+        return ResponseEntity.ok(result);
+    }
     
 }

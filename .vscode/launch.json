@@ -1,6 +1,6 @@
 {
     "configurations": [
-        
+
         {
             "type": "java",
             "name": "Spring Boot-CarServiceApplication<car-service>",
@@ -10,6 +10,7 @@
             "mainClass": "com.tutorial.carservice.CarServiceApplication",
             "projectName": "car-service",
             "args": ""
+            // "args": "--spring.profiles.active=dis"
         },
         {
             "type": "java",

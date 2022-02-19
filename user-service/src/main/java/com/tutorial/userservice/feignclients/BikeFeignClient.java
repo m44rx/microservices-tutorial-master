@@ -17,7 +17,7 @@ public interface BikeFeignClient {
     @PostMapping("/bike")
     Bike save(@RequestBody Bike bike);
 
-    @GetMapping("/byuser/{userId}")
+    @GetMapping("/bike/byuser/{userId}")
     List<Bike> getBikes(@PathVariable("userId") int userId);
     
 }
